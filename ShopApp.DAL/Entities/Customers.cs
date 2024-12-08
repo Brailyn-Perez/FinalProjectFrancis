@@ -9,5 +9,7 @@ namespace ShopApp.DAL.Entities
 
         public string companyname { get; set; }
 
+        public string email { get; set; }
+
     }
 }

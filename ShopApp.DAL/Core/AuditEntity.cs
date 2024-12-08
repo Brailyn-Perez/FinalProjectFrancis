@@ -14,7 +14,7 @@ namespace ShopApp.DAL.Core
 
         public DateTime? modify_date { get; set; }
 
-        public DateTime? modify_user { get; set; }
+        public int? modify_user { get; set; }
 
         public int? delete_user { get; set; }
 

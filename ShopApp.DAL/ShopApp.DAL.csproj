@@ -10,14 +10,6 @@
     <Folder Include="Daos\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="Models\Categories\" />
-    <Folder Include="Models\Customers\" />
-    <Folder Include="Models\Employees\" />
-    <Folder Include="Models\Supliers\" />
-    <Folder Include="Models\Shippers\" />
-    <Folder Include="Models\Products\" />
-    <Folder Include="Models\Orders\" />
-    <Folder Include="Models\OrderDetails\" />
   </ItemGroup>
 
   <ItemGroup>
