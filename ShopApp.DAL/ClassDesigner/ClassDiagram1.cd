@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ShopApp.DAL.Core.AuditEntity" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACQgIAAAAQAAAAgAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Core\AuditEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopApp.DAL.Core.ContactEntity" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAIAAAAAAAAAAAAAAAAgAAAAAAAAIAA=</HashCode>
+      <FileName>Core\ContactEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopApp.DAL.Core.LocationEntity" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAIAAACAAAAAIAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Core\LocationEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopApp.DAL.Core.PhoneContactEntity" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Core\PhoneContactEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopApp.DAL.Entities.Categories" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Categories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopApp.DAL.Entities.Customers" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Entities\Customers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopApp.DAL.Entities.Employees" Collapsed="true">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAQAhAAAAABAAAECAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Entities\Employees.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopApp.DAL.Entities.OrderDetails" Collapsed="true">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAGAAAAAAAAIAAAAAAABIAAAA=</HashCode>
+      <FileName>Entities\OrderDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopApp.DAL.Entities.Orders" Collapsed="true">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEACAAQAAAAAAAQgAAEAACAAAAAAAAAgAAAAABiAAEA=</HashCode>
+      <FileName>Entities\Orders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopApp.DAL.Entities.Products" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEABCAAAAAAAAAAgAGAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Products.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopApp.DAL.Entities.Shippers" Collapsed="true">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAEAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Shippers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

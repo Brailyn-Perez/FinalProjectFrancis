@@ -7,14 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ClassDesigner\" />
     <Folder Include="Context\" />
-    <Folder Include="Core\" />
     <Folder Include="Daos\" />
-    <Folder Include="Entities\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="Models\" />
+    <Folder Include="Models\Categories\" />
+    <Folder Include="Models\Customers\" />
+    <Folder Include="Models\Employees\" />
+    <Folder Include="Models\Supliers\" />
+    <Folder Include="Models\Shippers\" />
+    <Folder Include="Models\Products\" />
+    <Folder Include="Models\Orders\" />
+    <Folder Include="Models\OrderDetails\" />
   </ItemGroup>
 
   <ItemGroup>
