@@ -1,7 +1,7 @@
 ﻿
 namespace ShopApp.DAL.Models.Supliers
 {
-    public class GetSupliers
+    public class GetSuppliers
     {
         public int supplierid { get; set; }
 

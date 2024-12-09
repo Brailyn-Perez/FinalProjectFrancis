@@ -1,7 +1,7 @@
 ﻿
 namespace ShopApp.DAL.Models.Supliers
 {
-    public class SupliersRemoveModel
+    public class SuppliersRemoveModel
     {
         public int supplierid { get; set; }
 
