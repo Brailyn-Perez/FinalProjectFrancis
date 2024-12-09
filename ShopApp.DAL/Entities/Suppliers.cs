@@ -7,6 +7,6 @@ namespace ShopApp.DAL.Entities
     {
         public int supplierid { get; set; }
 
-        public string companyname { get; set;
+        public string companyname { get; set; }
     }
 }

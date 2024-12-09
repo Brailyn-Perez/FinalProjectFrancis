@@ -2,7 +2,7 @@
 
 namespace ShopApp.DAL.Models.Orders
 {
-    public class GetOrders
+    public class OrdersCreateOrUpdateModel
     {
         public int orderid { get; set; }
 
@@ -16,6 +16,16 @@ namespace ShopApp.DAL.Models.Orders
 
         public DateTime? shippeddate { get; set; }
 
+        public int shippedrid { get; set; }
 
+        public decimal freight { get; set; }
+
+        public string shipaddress { get; set; }
+
+        public string shipcity { get; set; }
+
+        public string? shippostalcode { get; set; }
+
+        public string shipcountry { get; set; }
     }
 }
