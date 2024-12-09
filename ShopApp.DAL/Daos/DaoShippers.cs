@@ -10,16 +10,17 @@ using System.Threading.Tasks;
 
 namespace ShopApp.DAL.Daos
 {
-    internal class DaoShippers : IDaoShippers
+    public class DaoShippers : IDaoShippers
     {
         private readonly ILogger _logger;
         private readonly ShopContext _shopContext;
 
-        public DaoShippers(ShopContext context, ILogger<DaoSuppliers> logger)
+        public DaoShippers(ILogger logger, ShopContext shopContext)
         {
             _logger = logger;
-            _shopContext = context;
+            _shopContext = shopContext;
         }
+
         public void CreateShippers(ShippersCreateOrUpdateModel shippers)
         {
             throw new NotImplementedException();

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace ShopApp.DAL.Daos
 {
-    internal class DaoEmployees : IDaoEmployees
+    public class DaoEmployees : IDaoEmployees
     {
         private readonly ILogger _logger;
         private readonly ShopContext _shopContext;

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ShopApp.DAL.Daos
 {
-    internal class DaoOrderDetails : IDaoOrderDetails
+    public class DaoOrderDetails : IDaoOrderDetails
     {
         private readonly ILogger _logger;
         private readonly ShopContext _shopContext;

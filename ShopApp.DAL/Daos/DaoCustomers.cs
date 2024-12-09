@@ -10,16 +10,17 @@ using System.Threading.Tasks;
 
 namespace ShopApp.DAL.Daos
 {
-    internal class DaoCustomers : IDaoCustomers
+    public class DaoCustomers : IDaoCustomers
     {
         private readonly ILogger _logger;
         private readonly ShopContext _shopContext;
 
-        public DaoCustomers(ShopContext context, ILogger<DaoSuppliers> logger)
+        public DaoCustomers(ILogger logger, ShopContext shopContext)
         {
             _logger = logger;
-            _shopContext = context;
+            _shopContext = shopContext;
         }
+
         public void CreateCustomers(CustomersCreateOrUpdateModel customers)
         {
             throw new NotImplementedException();

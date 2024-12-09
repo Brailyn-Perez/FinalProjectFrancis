@@ -6,7 +6,7 @@ using ShopApp.DAL.Models.Orders;
 
 namespace ShopApp.DAL.Daos
 {
-    internal class DaoOrders : IDaoOrders
+    public class DaoOrders : IDaoOrders
     {
         private readonly ILogger _logger;
         private readonly ShopContext _shopContext;
