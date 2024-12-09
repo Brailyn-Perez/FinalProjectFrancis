@@ -1,4 +1,6 @@
-﻿using ShopApp.DAL.Interfaces;
+﻿using Microsoft.Extensions.Logging;
+using ShopApp.DAL.Context;
+using ShopApp.DAL.Interfaces;
 using ShopApp.DAL.Models.Customers;
 using System;
 using System.Collections.Generic;
@@ -10,6 +12,14 @@ namespace ShopApp.DAL.Daos
 {
     internal class DaoCustomers : IDaoCustomers
     {
+        private readonly ILogger _logger;
+        private readonly ShopContext _shopContext;
+
+        public DaoCustomers(ShopContext context, ILogger<DaoSuppliers> logger)
+        {
+            _logger = logger;
+            _shopContext = context;
+        }
         public void CreateCustomers(CustomersCreateOrUpdateModel customers)
         {
             throw new NotImplementedException();
