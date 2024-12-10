@@ -10,6 +10,6 @@ namespace ShopApp.DAL.Models.Categories
 
         public DateTime? delete_date { get; set; }
 
-        public bool delete { get; set; }
+        public bool deleted { get; set; }
     }
 }

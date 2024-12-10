@@ -11,8 +11,8 @@ namespace ShopApp.DAL.Interfaces
 
         void RemoveCategories(CategoriesRemoveModel categories);
 
-        List<GetCategories>  GetCategories();
+        List<GetCategoriesModel>  GetCategories();
 
-        GetCategories GetCategoriesById(int id);
+        GetCategoriesModel GetCategoriesById(int id);
     }
 }

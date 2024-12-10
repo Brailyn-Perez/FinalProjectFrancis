@@ -2,7 +2,7 @@
 
 namespace ShopApp.DAL.Models.Categories
 {
-    public class GetCategories
+    public class GetCategoriesModel
     {
         public int categoryId { get; set; }
 

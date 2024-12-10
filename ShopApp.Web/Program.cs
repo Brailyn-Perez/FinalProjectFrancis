@@ -9,10 +9,11 @@ internal class Program
     {
         var builder = WebApplication.CreateBuilder(args);
         // add context
-        builder.Services.AddDbContext<ShopApp.DAL.Context.ShopContext>(options => 
+        builder.Services.AddDbContext<ShopContext>(options => 
         options.UseSqlServer(builder.Configuration.GetConnectionString("ShopApp")));
 
         builder.Services.AddScoped<IDaoCategories, DaoCategories>();
+
         // Add services to the container.
         builder.Services.AddControllersWithViews();
 
