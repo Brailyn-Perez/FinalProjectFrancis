@@ -6,7 +6,7 @@ namespace ShopApp.DAL.Core
         protected AuditEntity() 
         {
             creation_date = DateTime.Now;
-            delete = false;
+            deleted = false;
         }
         public DateTime creation_date { get; set; }
 
@@ -20,7 +20,7 @@ namespace ShopApp.DAL.Core
 
         public DateTime? delete_date { get; set; }
 
-        public bool delete { get; set; }
+        public bool deleted { get; set; }
 
     }
 }

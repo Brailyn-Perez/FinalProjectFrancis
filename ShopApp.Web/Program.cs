@@ -12,7 +12,7 @@ internal class Program
         builder.Services.AddDbContext<ShopApp.DAL.Context.ShopContext>(options => 
         options.UseSqlServer(builder.Configuration.GetConnectionString("ShopApp")));
 
-        builder.Services.AddScoped<IDaoCustomers, DaoCustomers>();
+        builder.Services.AddScoped<IDaoCategories, DaoCategories>();
         // Add services to the container.
         builder.Services.AddControllersWithViews();
 

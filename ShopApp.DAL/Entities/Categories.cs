@@ -1,12 +1,15 @@
 ﻿
 
+using Microsoft.EntityFrameworkCore;
 using ShopApp.DAL.Core;
+using System.ComponentModel.DataAnnotations;
 
 namespace ShopApp.DAL.Entities
 {
     public class Categories : AuditEntity
     {
-        public int categoryId { get; set; }
+        [Key]
+        public int categoryid { get; set; }
 
         public string categoryName { get; set; }
 

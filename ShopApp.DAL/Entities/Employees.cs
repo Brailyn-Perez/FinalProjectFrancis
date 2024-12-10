@@ -1,11 +1,13 @@
 ﻿
 using ShopApp.DAL.Core;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
 namespace ShopApp.DAL.Entities
 {
     public class Employees : PhoneContactEntity
     {
+        [Key]
         public int empid { get; set; }
 
         public string lastname { get; set; }
